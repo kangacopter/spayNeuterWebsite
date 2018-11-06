@@ -1,0 +1,72 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Help control the pet population!</title>
+<style type="text/css">
+#content #home {
+	position: absolute;
+	top: 0px;
+	right: 50px;
+}
+#content p img {
+	float: right;
+}
+</style>
+<link href="style.css" rel="stylesheet" type="text/css">
+<script type="text/javascript">
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+<style type="text/css">
+
+</style>
+</head>
+
+<body onLoad="MM_preloadImages('images/cat2.jpg','images/dogfur1.jpg','images/dogfur2.jpg','images/pug.jpg','images/dancingdoghearts.gif')">
+<img src="images/menu.png" alt="menu" name="imgmap" width="500" height="500" border="0" usemap="#imgmapmap" id="imgmap">
+<div id="content">
+  <h1><img src="images/spaytab.gif" name="home" width="194" height="86" id="home">spaying and neutering is easy. </h1>
+  <p><img src="images/dancingdog.gif" alt="dancing dog" name="dancingdog" width="174" height="211" id="dancingdog" onMouseOver="MM_swapImage('dancingdog','','images/dancingdoghearts.gif',1)" onMouseOut="MM_swapImgRestore()">Yes, easy. Easy for you, mostly easy for your pet. Pets are most often put under during the operation, just as you are for surgery. It is recommended that kittens and puppies be fixed as soon as possible, as early as 8 weeks old, before they are even able to reproduce. </p>
+  <p>&nbsp;</p>
+  <h1>it can be affordable. </h1>
+  <p>While you may expect to be charged a sizeable fee from a regular veterinarian, don't despair! There are many cost-effective ways to spay or neuter your pet. Often there are low-cost clinics in your community ready to help you out! You can check your local newspaper for information, ask a veterinarian or local human society, or visit the <a href="http://www.aspca.org/pet-care/spayneuter">ASPCA website</a> to find a clinic or program near you. </p>
+  <p>&nbsp;</p>
+  <h1>you and your pet will be happier.</h1>
+  <p>Neutering your male pet can prevent unwanted behaviors, such as: spraying in cats, taking long journeys to find mates, and aggression toward your or other animals. Spaying your female pet will ensure that you will never have to listen to your cat or dog's lover calls all night long again! The &quot;need to breed&quot; can be quite distressful for both pet and owner, so spaying and neutering can keep the peace. </p>
+</div>
+<map name="imgmapmap" id="imgmapmap">
+  <area shape="poly" coords="1,174,66,161,106,326,0,301,1,173" href="support.html" alt="support" onMouseOver="MM_swapImage('cat1','','images/cat2.jpg',1)" onMouseOut="MM_swapImgRestore()" />
+  <area shape="poly" coords="70,160,110,136,248,281,177,316,109,325" href="adoption.html" alt="adoption" onMouseOver="MM_swapImage('cat1','','images/dogfur1.jpg',1)" onMouseOut="MM_swapImgRestore()" />
+
+  <area shape="poly" coords="115,132,149,87,337,174,305,227,251,278" href="spayneuter.html" alt="spay & neuter" onMouseOver="MM_swapImage('cat1','','images/dogfur2.jpg',1)" onMouseOut="MM_swapImgRestore()" />
+  <area shape="poly" coords="153,82" href="#" />
+  <area shape="poly" coords="151,84,166,46,378,67,362,123,337,169" href="facts.html" alt="facts" onMouseOver="MM_swapImage('cat1','','images/pug.jpg',1)" onMouseOut="MM_swapImgRestore()" />
+  <area shape="poly" coords="166,39,379,60,387,5,166,4" href="index.html" alt="menu" />
+</map>
+<img src="images/cat1.jpg" alt="cat" name="cat1" width="174" height="181" id="cat1">
+
+
+
+</body>
+</html>
